@@ -76,7 +76,7 @@
 </td></tr><tr><td class="line-number" value="74"></td><td class="line-content">
 </td></tr><tr><td class="line-number" value="75"></td><td class="line-content">        <span class="html-tag">&lt;script <span class="html-attribute-name">type</span>="<span class="html-attribute-value">text/javascript</span>"&gt;</span>
 </td></tr><tr><td class="line-number" value="76"></td><td class="line-content">            //initiate script with origin of AgentDesktop embedded on the page
-</td></tr><tr><td class="line-number" value="77"></td><td class="line-content">            window.bpspat.api.init(window.location.href.substring(0, window.location.href.indexOf("/agentdesktop/AgentDesktopSdkTest.jsp")));//remove suffix, pass origin
+</td></tr><tr><td class="line-number" value="77"></td><td class="line-content">            window.bpspat.api.init(window.location.href.substring(0, window.location.href.indexOf("/AgentDesktopSdkTest.jsp")));//remove suffix, pass origin
 </td></tr><tr><td class="line-number" value="78"></td><td class="line-content">
 </td></tr><tr><td class="line-number" value="79"></td><td class="line-content">            document.getElementById("repeater").src = window.location.href.replace("AgentDesktopSdkTest", "UniversalRepeater");
 </td></tr><tr><td class="line-number" value="80"></td><td class="line-content">
